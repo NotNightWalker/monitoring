@@ -1,0 +1,4 @@
+time_interval: 2
+max_file_size: 1048576
+logs: "logs/py_log.log"
+data: "data/monitoring.json"
