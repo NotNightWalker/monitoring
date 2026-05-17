@@ -22,7 +22,7 @@ cp -r ../scripts /opt/monitoring/
 cd /opt/monitoring/ 
 
 # Устанавливаем зависимости
-python3 -m venv venv # Выполняется от root, так как скрипт запускает root
+python3 -m venv venv # Выполняется от root так как скрипт запускает root 
 chown -R my-monitoring:my-monitoring venv # Меняем владельца для папки venv
 source venv/bin/activate
 pip install -r requirements.txt
